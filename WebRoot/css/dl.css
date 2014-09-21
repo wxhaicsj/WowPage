@@ -1,0 +1,18 @@
+body
+{
+    background-image: url("../img2/denglu.jpg") ;
+    background-repeat: no-repeat;
+    width: 1440px;
+   height: 1100px;
+}
+.wxh_dl{width: 465px;height: 514px;margin:5px 5px 5px 5px;position: absolute;top: 360px;left: 480px;}
+.wxh_dl span{display:block; float:left; width:275px; height:55px; overflow:hidden;
+              background-image:url("../img2/dl4.png");}
+.wxh_dl span.pass{background-position: -330px -365px;position: relative;top: 60px;left: 86px;}
+.wxh_dl span.mim{background-position: -330px -365px;position: relative;top: 175px;left: 86px;}
+.wxh_dl span em{font-size: 40px;text-align: right;color:#DAA520;text-shadow: 5px 5px 5px #FF0000;position: absolute;left: 70px}
+.kan{width: 271px;height: 52px;border-color: #8B4513;border-style: solid;background-color: burlywood}
+.btn{width: 290px;height: 54px;background-image: url("../img2/dl3.jpg");border-color: #8B4513}
+.wxh_hj{width: 139px;height: 165px;position: relative;top: 154px;left: 783px;}
+.wxh_hj h4.bbk1{margin: 15px 0px 15px 0px}
+.bbk{font-style: italic;color: brown;margin: 3px 0px 3px 0px;text-align: center;font-size: 15px}

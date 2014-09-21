@@ -1,0 +1,31 @@
+body
+{
+    width: 1440px;height: 770px;
+    background-image: url("../img5/body.jpg");
+}
+.zc
+{
+    width: 742px;height: 789px;
+    background-image:url("../img5/bot.jpg") ;
+    position: relative;
+    top: -8px;left: 338px;
+}
+h1{color: #778899;text-align: center;font-weight: bold;font-style: normal;position: absolute;top: 10px;left:280px;
+    word-spacing: 10px;margin: 5px 0 5px 0}
+.zc_bd{width: 700px;height: 570px;position: relative;top: 80px;left: 21px;border-radius: 20px;background-color:#EEE8AA}
+.zc_coo{font-size: 20px;color: black;position: absolute;top: 20px;left: 5px;width: 1000px;height: 570px;}
+.zc_text{border-radius: 10px;background-color: lightblue;width: 250px;height: 35px;}
+.zc_coo em {font-size: 15px;color: red;white-space: normal;font-weight: bold;font-style: italic}
+.picture{ width:21px;
+    height:21px;}
+.zc_text_f{width: 450px;height: 100px;position:relative;left: 170px;top:10px; }
+#year{width: 105px;height: 25px;background-color:lightblue}
+#month{width: 65px;height: 25px;background-color:lightblue}
+#day{width: 65px;height: 25px;background-color:lightblue}
+#province{width: 125px;height: 25px;background-color:lightblue}
+#city{width: 125px;height: 25px;background-color:lightblue}
+.btn{width: 149px;height: 38px;position: absolute;top: 500px;left: 260px;
+    background-image: url("../img5/btn1.jpg");color: #ffffff;margin: 0px;padding: 0px;
+    font-size: 15px;font-weight: bold;background-color:#EEE8AA ;text-align:center;}
+#xs{width: 420px;height: 90px;position: absolute;bottom: 35px;left: 30px;font-size: 30px;
+    text-shadow: 3px 3px 3px slateblue;color: crimson;text-align: center;}

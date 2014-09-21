@@ -1,0 +1,18 @@
+body
+{
+    width: 1300px;height: 800px;
+    background-image: url("../img5/body2.jpg");
+    background-repeat: no-repeat;
+}
+.sp
+{
+    width: 710px;height: 815px;position: relative;top: -12px;left: 339px;background-repeat: repeat;
+   background-image: url("../img5/body3.jpg");
+}
+h1{color: #B8860B;text-shadow: 2px 2px 2px #FF4500;position: absolute;top: 10px;left: 220px;font-size: 50px }
+.sp_bd
+{
+    width: 680px;height: 650px;position: absolute;top: 120px;left: 10px;
+}
+.sp_bt1{width:149px;height: 38px;position: absolute;bottom: 15px;left: 75px;background-image: url("../img5/btn1.jpg")}
+.sp_bt2{width:149px;height: 38px;position: absolute;bottom: 15px;left: 340px;background-image: url("../img5/btn1.jpg")}

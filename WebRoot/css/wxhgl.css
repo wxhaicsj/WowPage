@@ -1,0 +1,25 @@
+.header_plate{width:652px;height: 93px;position: relative;top:135px;left:210px;}
+.menu{width: 623px;height: 65px;position: absolute;top:17px;left: 18px;margin: 0px;padding: 0px;cursor:pointer}
+.menu a{width: 103px;height: 20px;text-decoration: none;display: block;position:absolute;top: 2px;left: -5px;text-align: center;padding-top: 45px }
+.menu a{font-size: 14px;color:#ffa400;font-family: sans-serif;font-weight: bold }
+.menu a:hover{color: white;font-size: 14px;font-family: sans-serif;font-weight: bold}
+/*.menu span{width: 102px;height: 62px;position: relative;}
+.menu span em{width: 60px;height:20px;font-size:14px;color:#ffa400;position: absolute;top:38px;left:28px;font-family: sans-serif;font-weight: bold}*/
+.menu-home{width: 102px;height: 65px;margin: 0px;padding: 0px;position:absolute;
+    background-image: url("../img6/wow.jpg");background-position: 0 -65px;list-style: none;}
+.menu-home-current{background-position: 0px -130px;}
+.menu-game{width: 104px;height: 65px;margin: 0px;padding: 0px;position:absolute;top: 0px;left: 102px;
+    background-image: url("../img6/wow.jpg");background-position: 104px -65px;list-style: none;}
+.menu-game-current{background-position: 104px -130px}
+.menu-community{width: 105px;height: 65px;margin: 0px;padding: 0px;position:absolute;top: 0px;left: 206px;
+    background-image: url("../img6/wow.jpg");background-position: 207px -65px;list-style: none;}
+.menu-community-current{background-position: 207px -130px}
+.menu-media{width: 105px;height: 65px;margin: 0px;padding: 0px;position:absolute;top: 0px;left: 311px;
+    background-image: url("../img6/wow.jpg");background-position: 311px -65px;list-style: none;}
+.menu-media-current{background-position: 311px -130px}
+.menu-forums{width: 104px;height: 65px;margin: 0px;padding: 0px;position:absolute;top: 0px;left: 416px;
+    background-image: url("../img6/wow.jpg");background-position: 414px -65px;list-style: none;}
+.menu-forums-current{background-position: 414px -130px}
+.menu-services{width: 102px;height: 65px;margin: 0px;padding: 0px;position:absolute;top: 0px;left: 520px;
+    background-image: url("../img6/wow.jpg");background-position: 520px -65px;list-style: none;}
+.menu-services-current{background-position: 520px -130px}

@@ -1,0 +1,144 @@
+/*1*/
+.cube {
+    position: relative;
+    top: 400px;
+    left: 450px;
+
+}
+
+.rightFace,
+.leftFace,
+.topFace div {
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.rightFace,
+.leftFace,
+.topFace {
+    position: absolute;
+}
+
+.leftFace {
+    -webkit-transform: skewY(30deg);
+    -moz-transform: skewY(30deg);
+    background-color: #8B4513;
+}
+
+.rightFace {
+    -webkit-transform: skewY(-30deg);
+    -moz-transform: skewY(-30deg);
+    background-color: #A0522D;
+    left: 200px;
+}
+
+.topFace div {
+    -webkit-transform: skewY(-30deg) scaleY(1.16);
+    -moz-transform: skewY(-30deg) scaleY(1.16);
+    background-color: #B8860B;
+    font-size: 0.862em;
+}
+
+.topFace {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    top: -158px;
+    left: 100px;
+}
+/*2*/
+.cube2 {
+    position: relative;
+    top: 630px;
+    left: 50px;
+
+}
+
+.rightFace2,
+.leftFace2,
+.topFace2 div {
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.rightFace2,
+.leftFace2,
+.topFace2 {
+    position: absolute;
+}
+
+.leftFace2 {
+    -webkit-transform: skewY(30deg);
+    -moz-transform: skewY(30deg);
+    background-color: #8B4513;
+}
+
+.rightFace2 {
+    -webkit-transform: skewY(-30deg);
+    -moz-transform: skewY(-30deg);
+    background-color: #A0522D;
+    left: 200px;
+}
+
+.topFace2 div {
+    -webkit-transform: skewY(-30deg) scaleY(1.16);
+    -moz-transform: skewY(-30deg) scaleY(1.16);
+    background-color: #B8860B;
+    font-size: 0.862em;
+}
+
+.topFace2{
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    top: -158px;
+    left: 100px;
+}
+/*3*/
+.cube1 {
+    position: relative;
+    top: 515px;
+    left: 250px;
+
+}
+
+.rightFace1,
+.leftFace1,
+.topFace1 div {
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.rightFace1,
+.leftFace1,
+.topFace1 {
+    position: absolute;
+}
+
+.leftFace1 {
+    -webkit-transform: skewY(30deg);
+    -moz-transform: skewY(30deg);
+    background-color: #8B4513;
+}
+
+.rightFace1 {
+    -webkit-transform: skewY(-30deg);
+    -moz-transform: skewY(-30deg);
+    background-color: #A0522D;
+    left: 200px;
+}
+
+.topFace1 div {
+    -webkit-transform: skewY(-30deg) scaleY(1.16);
+    -moz-transform: skewY(-30deg) scaleY(1.16);
+    background-color: #B8860B;
+    font-size: 0.862em;
+}
+
+.topFace1 {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    top: -158px;
+    left: 100px;
+}

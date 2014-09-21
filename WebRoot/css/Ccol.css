@@ -1,0 +1,42 @@
+body
+{
+    height: 1050px;
+    background-image: url("../img3/bga3.jpg");
+    background-repeat: repeat}
+.wxh_dada{width: 950px;height: 300px;position: relative;top: 45px;left: 30px;}
+.wxh_mt
+{
+    width: 1039;
+    height: 314px;
+background-image: url("../img3/pj.jpg");
+
+}
+.wxh_bt{width:270px;height: 65px ;position: relative;top: 20px;left: 30px}
+.wxh_bt span{width: 270px;height: 65px;float: left;background-image: url("../img3/bt2.gif");}
+.wxh_bt span em{font-size: 30px;font-style: italic;font-weight: bold;text-shadow: 3px 3px 3px #98Fb98;color:#B8860B;
+    position: absolute;top: 16px;left: 75px}
+.wxh_dm
+{
+    width: 640px;height: 283px;
+    border: 1px solid #b99159;
+    border-radius: 15px;
+    padding: 5px 0 16px 18px;
+    background: #fbe8c7;
+    overflow: hidden;
+    position: relative;
+    top: 30px;left: 35px;
+}
+p{font-size: 20px;font-style: normal;color: brown;margin: 5px 0 5px 0;}
+p em{font-size: 25px;font-style: italic;font-weight: bold;color: #8B4513}
+.wxh_jh{width: 640px;height: 65px;position: absolute;top: 2px;left: 5px;}
+.wxh_jh_s{width: 640px;height: 65px;float: left;background-image: url("../img3/bt.gif");cursor:pointer}
+.wxh_mtjh
+{
+    width: 900px;height: 180px;position: absolute;top: 80px;left: 5px;border: 1px solid #b99159;
+    border-radius: 15px; padding: 5px 0 16px 18px;background: #fbe8c7; overflow: hidden;
+
+}
+.wxh_mtjh li{width: 114px;height: 180px;margin: 20px 10px 20px 0px ;list-style-type:none;float: left;
+    border-style: ridge;border-radius: 10px;border-color: #8B4513;display: inline;
+}
+.wxh_mtjh ul{width: 4000px;position: relative;top: -30px;left: -50px;overflow: hidden}

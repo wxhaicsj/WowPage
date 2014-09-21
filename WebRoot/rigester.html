@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>rigester.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <style>
+    div,span{
+			    width: 140px;
+			    height: 140px;
+			    margin: 20px;
+			    background: #9999CC;
+			    border: #000 1px solid;
+				float:left;
+			    font-size: 17px;
+			    font-family:Roman;
+			}
+			
+			div.mini{
+			    width: 30px;
+			    height: 30px;
+			    background: #CC66FF;
+			    border: #000 1px solid;
+			    font-size: 12px;
+			    font-family:Roman;
+			}
+			
+			div.visible{
+				display:none;
+			}
+            img
+            {
+                width:30px;
+                height:30px;
+            }
+           
+    </style>
+    <script language="JavaScript" src="js/jquery-1.4.2.js"></script>
+    <script>
+     $(document).ready(
+        function(){
+            $("img").hide();
+            $("#username").bind("blur",function(){
+                var $username=$(this);
+                var jsonObj={
+                    username:$username.val()
+                };
+
+                //var jsonObj=$("#form1").serialize();
+
+                $.get("checkUsername.jsp",jsonObj,function(data,textStatus){
+                    //alert(data);
+                    if(data==1)
+                    {
+                        $username.next().show();
+                        $username.next().next().hide();
+                       //$("img").eq(0).show();
+                       // $("img").eq(1).hide();
+                    }
+                    else
+                    {
+                        $username.next().hide();
+                        $username.next().next().show();
+                       // $("img").eq(0).hide();
+                       // $("img").eq(1).show();
+                    }
+                    //alert(data);
+                    //$("#one").text(data);
+                });
+            });
+        }
+        );
+        function log()
+        {
+            document.getElementById("one").style.backgroundColor="#000";
+        }
+    </script>
+  </head>
+  
+  <body>
+   
+		<form action="" name="form1" id="form1">
+            用户名<input type="text" name="username" id="username"   value="">
+            <img src="images/correct.jpg">
+            <img src="images/error.jpg">
+            <br>
+            密码<input type="text" name="psw" id="psw" value=""><br>
+	        <input type="button" id="b1" value="注册">
+		</form>
+		
+		<div id="one">
+		</div>
+		<script>
+		 $("#b1").click(function(){
+		 /*
+		  *  $.post("get.jsp",function(data,textStatus){});
+		  *    * 通过远程 HTTP post 请求载入信息。
+		  *    * 参数1:请求的url
+		  *    * 参数2:发送到服务器的数据.格式:{key01:vlaue01,key02:vlaue02}
+		  *    * 回调函数:function(data,textStatus)
+		  *          * data:服务器返回的数据
+		  *          * textStatus:代表请求状态, 其值可能为: succuss, error, notmodify, timeout 4 种.
+		  *    * 方法的返回值是xmlHttpRequest对象
+		  */
+		 var jsonObj={
+		 	username:$("#username").val(),
+			psw:$("#psw").val()
+		 }
+
+		  //var jsonObj=$("#form1").serialize();
+		 
+         $.post("get.jsp",jsonObj,function(data,textStatus){
+             //alert(data);           
+		   	 $("#one").text(data);		
+		 });	  	
+	  });
+   });		
+</script>
+  </body>
+</html>

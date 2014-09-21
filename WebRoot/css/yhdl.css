@@ -1,0 +1,22 @@
+body
+{
+    width: 1306px;
+    height: 700px;
+    background-image: url("../img2/bgg.jpg");
+
+}
+.wxh_ydl
+{
+    width: 300px;height: 200px;position: relative;
+    top: 100px;left: 650px;
+}
+.wxh_ydl span{display:block; float:left; width:180px; height:40px; overflow:hidden;
+    background-image:url("../img2/an3.png");}
+.wxh_ydl span.pass{background-position: -9px -13px;position: relative;top: 0px;left: 0px;}
+.wxh_ydl span.mim{background-position: -9px -13px;position: relative;top: 58px;left: 0px;}
+.wxh_ydl span em{font-size: 20px;text-align: right;color:#FF4500;text-shadow: 1px 1px 1px #7CFC00;
+    position: absolute;left: 40px;top: 8px;font-weight: 900;letter-spacing:15px; }
+.kan{width: 180px;height: 35px;border-color: cornflowerblue;border-style: solid;background-color: burlywood}
+.btn{width: 230px;height: 40px;background-image: url("../img2/an4.png");border-color: #8B4513}
+.wxh_ydl_jl{width: 250px;height: 300px;position: relative;top: -40px;left: 1050px;}
+.wxh_ydl_jl ul em {font-size: 20px;font-style: normal;color: firebrick}

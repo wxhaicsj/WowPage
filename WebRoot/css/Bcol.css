@@ -1,0 +1,18 @@
+body
+{
+
+    background-image: url("../img3/bga2.jpg");background-repeat: no-repeat
+}
+.zl
+{
+    width: 263px;height: 600px;position: relative;
+}
+.zl span{width: 240px;height: 80px;background-image: url("../img3/an.png")}
+.zl span.bb1{width:240px;height: 80px;background-position: -10px -17px;position: absolute;top: 10px;left: -5px;}
+.zl span em{font-size: 40px;font-style: italic;font-weight: bold;text-shadow: 4px 4px 4px #98FB98 ;color: #8B4513;
+    position: absolute;top: 13px;left: 14px}
+.zl span.bb2{width:240px;height: 80px;background-position: -10px -118px;position: absolute;top: 90px;left: -5px;}
+.zl span.bb3 {width:240px;height: 80px;background-position: -10px -219px;position: absolute;top: 175px;left: -5px;}
+.zl span.bb4 {width:240px;height: 80px;background-position: -10px -17px;position: absolute;top: 260px;left: -5px;}
+.zl span.bb5 {width:240px;height: 80px;background-position: -10px -118px;position: absolute;top: 345px;left: -5px;}
+.zl span.bb6 {width:240px;height: 80px;background-position: -10px -219px;position: absolute;top: 430px;left: -5px;}
